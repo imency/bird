@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: #f1f2f6;
+}
+.content-wrap{
+    width: 780px;
+    /* height: 1870px; */
+    margin: 0 auto;
+    background: #fff;
+  /* padding-top:70px; */
+  padding: 70px 160px 220px 160px;
+}
+.big-title{
+    line-height: 60px;
+    text-align: center;
+    font-size: 54px;
+    color: #311759;
+
+}
+.type-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #311759;
+}
+.content-wrap>span{
+    width: 37px;
+    height: 8px;
+    margin:0 auto;
+    display: block;
+margin-top: 15px;
+}
+.title-list{
+    color: #311759;
+font-size: 30px;
+background: url(../images/pen_line_long.png) no-repeat -320px 58px;
+height: 60px;
+position: relative;
+margin-top: 70px;
+}
+.title-list>span{
+    color: #311759;
+    font-size: 30px;
+
+}
+.pen{
+   
+    width: 61px;
+    height: 58px;
+    background: url(../images/pen_article.png) no-repeat;
+       
+    position: absolute;
+    right: 0px;
+    top: 7px;
+    cursor: pointer;
+}
+.pen:hover{
+    background-position: -61px 0;
+
+}
+.auther{
+    color: #6b6a6f;
+padding-top: 15px;
+margin-bottom: 60px;
+}
+.date{
+    font-size: 15;
+    color: #6b6a6f;
+    float:left;
+
+}
+.auther>span{
+    float:left;
+    font-size: 15;
+    color: #6b6a6f; 
+}
+.article{
+    width: 780px;
+    height: 1225px;
+
+}
+.tu{
+    margin-bottom:35px;
+}
+.content{
+    width: 780px;
+    height: 989px;
+    font-size: 15px;
+}
+.content p{
+    margin-bottom: 23px;
+    font-size: 15px;
+}
+.like{
+    width: 73px;
+    height: 73px;
+    float:left;
+    background: url(../images/article_iflike.png) no-repeat;
+cursor: pointer;
+}
+.like-box{
+    width: 220px;
+}
+.like-wrap{
+    margin-top: 80px;
+    margin-left: 350px;
+    height: 73px;
+    overflow: hidden;   
+}
+.like:hover{
+    background-position: 0 -73px;
+    animation: 1s linear 0s normal none 1 running su-pudding;
+}
+.love{
+    width: 135px;
+    height: 35px;
+    float: left;
+    margin-left: 5px;
+    background: url(../images/article_iflike_nomberbg.png) no-repeat;
+    margin-top: 19px;
+    padding-top: 8px;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+    display:none;
+}
+.like-box:hover .love{
+    display: block;
+}
+.tips{
+    position: relative;
+margin-top: 54px;
+display: none
+}
+.like-tips{
+    min-width: 235px;
+    padding: 27px 10px;
+    background: #f1f2f6;
+    border-radius: 5px;
+    position: absolute;
+    color: #311859;
+    font-size: 24px;
+    text-align: center;
+    top: 0;
+    opacity: 1;
+    left: 258px;
+}
